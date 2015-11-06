@@ -1,0 +1,19 @@
+{
+  "name": "es6-babel-introduction",
+  "version": "1.0.0",
+  "description": "An interactive introduction to ES6 and Babel",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "babel-polyfill": "*",
+    "es6-module-loader": "^0.17.8",
+    "grunt": "0.4.5",
+    "grunt-babel": "5.0.3",
+    "grunt-cli": "0.1.13",
+    "grunt-contrib-watch": "0.6.*",
+    "load-grunt-tasks": "3.3.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "requirejs": "^2.1.20"
+  }
+}
