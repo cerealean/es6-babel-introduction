@@ -1,6 +1,6 @@
-import Loan from 'Loan';
+import Loan from './Loan';
 
-class BasicMath {
+export default class BasicMath {
     _rawr = "rawr";
     static PI = 3.14;
     total = 0;
