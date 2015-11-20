@@ -31,9 +31,4 @@ export default class BasicMath {
         return total;
     }
 
-    static Test(){
-        const Loan = new Loan();
-        return Loan.interestRate;
-    }
-
 }
