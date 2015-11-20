@@ -3,7 +3,11 @@ module.exports = function (grunt) {
         "pkg": grunt.file.readJSON("package.json"),
         "babel": {
             "options": {
-                "sourceMap": true
+                "sourceMap": true,
+                "presets" : ['es2015'],
+                "plugins" : ['transform-class-properties'],
+                "comments" : false,
+                "compact" : false
             },
             "dist": {
                 "files": [{

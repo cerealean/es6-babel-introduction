@@ -1,15 +1,9 @@
-class CustomMath {
+import Loan from 'Loan';
 
-    /**
-     * @return {number}
-     */
-    static get PI() {
-        return 3.14;
-    }
-
-    get test(){
-        return 2;
-    }
+class BasicMath {
+    _rawr = "rawr";
+    static PI = 3.14;
+    total = 0;
 
     /**
      * @return {number}
@@ -35,6 +29,11 @@ class CustomMath {
         });
 
         return total;
+    }
+
+    Test(){
+        const Loan = new Loan();
+        return Loan.interestRate;
     }
 
 }
