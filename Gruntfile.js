@@ -1,13 +1,17 @@
 module.exports = function (grunt) {
     grunt.initConfig({
         "pkg": grunt.file.readJSON("package.json"),
-        "babel": {
+        "browserify": {
             "options": {
-                "sourceMap": true,
-                "presets" : ['es2015'],
-                "plugins" : ['transform-class-properties'],
-                "comments" : false,
-                "compact" : false
+                "transform" : [
+                    ["babelify",
+                        {
+                            "presets" : ["es2015"],
+                            "plugins" : ['transform-class-properties'],
+                            "sourceMap" : true
+                        }
+                    ]
+                ]
             },
             "dist": {
                 "files": [{
@@ -20,9 +24,9 @@ module.exports = function (grunt) {
             }
         },
         "watch": {
-            "babel" : {
+            "browserify" : {
                 "files" : 'src/**/*.js',
-                "tasks" : ['babel']
+                "tasks" : ['browserify']
             },
             "livereload" : {
                 "options" : {"livereload" : true},
@@ -31,6 +35,7 @@ module.exports = function (grunt) {
         }
     });
     grunt.loadNpmTasks("grunt-babel");
+    grunt.loadNpmTasks("grunt-browserify");
     grunt.loadNpmTasks("grunt-contrib-watch");
-    grunt.registerTask("default", ["babel"]);
+    grunt.registerTask("default", ["browserify"]);
 };
