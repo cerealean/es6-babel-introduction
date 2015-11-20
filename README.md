@@ -16,17 +16,13 @@ A simple introduction to ES6 and Babel. In-progress.
 
 ### Install Grunt CLI
 
-You should install the Grunt CLI. You can do this through npm by running `npm install -g grunt-cli`
+You should globally install the Grunt CLI. You can do this through npm by running `npm install -g grunt-cli`
 
 ### Install NPM Packages
 
 1) Navigate to your cloned project
 2) In the same directory as the `package.json` file, run the command `npm install`.
 3) Allow all of the NPM modules to install. You are now setup!
-
-# Overall Project
-
-1) Create a basic calculator
 
 # Additional Resources
 
