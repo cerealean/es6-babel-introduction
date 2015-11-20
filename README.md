@@ -20,9 +20,9 @@ You should globally install the Grunt CLI. You can do this through npm by runnin
 
 ### Install NPM Packages
 
-1) Navigate to your cloned project
-2) In the same directory as the `package.json` file, run the command `npm install`.
-3) Allow all of the NPM modules to install. You are now setup!
+1. Navigate to your cloned project
+2. In the same directory as the `package.json` file, run the command `npm install`.
+3. Allow all of the NPM modules to install. You are now setup!
 
 # Additional Resources
 
