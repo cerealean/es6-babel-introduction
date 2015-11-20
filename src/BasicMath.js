@@ -31,7 +31,7 @@ class BasicMath {
         return total;
     }
 
-    Test(){
+    static Test(){
         const Loan = new Loan();
         return Loan.interestRate;
     }

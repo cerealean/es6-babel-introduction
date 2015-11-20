@@ -1,21 +1,21 @@
 {
-    "name": "es6-babel-introduction",
-    "version": "1.0.0",
-    "description": "An interactive introduction to ES6 and Babel",
-    "main": "Gruntfile.js",
-    "devDependencies": {
-        "grunt": "0.4.5",
-        "grunt-babel": "6.0.0",
-        "grunt-cli": "0.1.13",
-        "grunt-contrib-watch": "0.6.*",
-        "load-grunt-tasks": "3.3.0",
-        "babel-core" : "*",
-        "babel-loader" : "*",
-        "babel-preset-es2015": "*",
-        "babel-plugin-transform-class-properties": "*"
-    },
-    "dependencies": {
-        "jquery": "^2.1.4",
-        "requirejs": "^2.1.20"
-    }
+  "name": "es6-babel-introduction",
+  "version": "1.0.0",
+  "description": "An interactive introduction to ES6 and Babel",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.2.2",
+    "babel-preset-es2015": "^6.1.18",
+    "babelify": "^7.2.0",
+    "grunt": "0.4.5",
+    "grunt-babel": "6.0.0",
+    "grunt-cli": "0.1.13",
+    "grunt-contrib-watch": "0.6.*",
+    "load-grunt-tasks": "3.3.0"
+  },
+  "dependencies": {
+    "browserify": "^12.0.1",
+    "jquery": "^2.1.4",
+    "requirejs": "^2.1.20"
+  }
 }
