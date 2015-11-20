@@ -28,3 +28,10 @@ You should globally install the Grunt CLI. You can do this through npm by runnin
 
 - [Babel](https://babeljs.io/)
 - [ES6 Information](https://babeljs.io/docs/learn-es2015/)
+- [Browserify](http://browserify.org/)
+- [Babelify](https://github.com/babel/babelify)
+
+# Articles That Helped Me
+
+- http://jpsierens.com/use-es6-right-now/
+- http://www.sitepoint.com/setting-up-es6-project-using-babel-browserify/ 
