@@ -1,20 +1,26 @@
 # es6-babel-introduction
 A simple introduction to ES6 and Babel. In-progress.
 
+# Setup
+
 ## Requirements
 
 - [NPM](https://nodejs.org/en/)
 - [A modern browser](https://google.com/chrome)
+- This project cloned locally
 
 ## Suggested
 
 - [PhpStorm](https://www.jetbrains.com/phpstorm/)
 
-## Install Babel
+## Install Grunt CLI
 
-You should install the Babel CLI. You can do this through npm by running `npm install -g babel`.
+You should install the Grunt CLI. You can do this through npm by running `npm install -g grunt-cli`
 
-`babel src --out-dir dist --watch`
+## Install NPM Packages
+
+1) Navigate to your cloned project
+2) In the same directory as the `package.json` file, run the command `npm install`
 
 ## Additional Resources
 
