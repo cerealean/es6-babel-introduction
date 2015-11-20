@@ -14,4 +14,7 @@ calculator.AddLoans(loan3, loan4);
 
 const total = calculator.GetTotal();
 
-console.log(total);
+const totalMessage = `The total
+from the \n calculator was ${total}`;
+
+console.log(totalMessage);

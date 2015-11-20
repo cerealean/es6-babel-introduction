@@ -1,4 +1,4 @@
-import $ from '../node_modules/jquery/dist/jquery.min'; //To prove a point
+import $ from '../../node_modules/jquery/dist/jquery.min.js'; //To prove a point
 import BasicMath from './BasicMath';
 
 export default class LoanCalculator {
@@ -29,6 +29,6 @@ export default class LoanCalculator {
     GetTotal(){
         let total = this._Loans.map(loan => loan.loanAmount + (loan.loanAmount * loan.interestRate));
 
-        return new BasicMath().Add(...total);
+        return new BasicMath().Add(...total); //Spread
     }
 }
